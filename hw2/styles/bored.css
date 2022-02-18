@@ -1,0 +1,32 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+#bored-button {
+  cursor: pointer;
+  height: fit-content;
+  width:fit-content;
+  font-size: 100px;
+  font-family:	Brush Script MT;
+  color:chartreuse;
+  background-color:dodgerblue;
+  border:2px solid black;
+  padding: 14px 28px;
+  border-color: black;
+  cursor: pointer;
+}
+
+#card {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+#first-part {
+  text-transform: capitalize;
+  color: blue;
+}
