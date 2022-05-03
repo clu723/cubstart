@@ -34,7 +34,6 @@ io.on('connection', (socket) => {
   });
 
   socket.on('chatMessage', (username, msg) => {
-    // var chars = msg.split('');
     socket.broadcast.emit('message', `${username}: ` + msg);
   });
 
